@@ -1,6 +1,8 @@
 *{
   box-sizing: border-box;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  border-radius: 3px solid black;
 }
 
 /* header style */
@@ -20,11 +22,12 @@ h1{
 
 h3{
   text-align: center;
+  margin: 0;
+  color:  #de5059;;
 }
 
 .imgHeader{
   width: 50px;
-  height: auto;
 }
 
 /* hanger and man syle */
@@ -33,9 +36,9 @@ h3{
   padding-left: 5%;
   max-width: 40%;
   height: auto;
-  
+  filter: invert(20%) ;
+  opacity: 100%;
 }
-
 
 
 /* word space */
@@ -55,15 +58,24 @@ h3{
   border-bottom: 4px solid black;
 }
 
+/* guessed letter style */
+
+.guessedLettersContainer{
+  float: right;
+  margin-top: 5rem;
+  padding-right: 4rem;
+  letter-spacing: 0.1rem;
+} 
+
+
 /* input letter style */
 
 .letterBox{
   display: flex;
   justify-content: center;
   align-items: center;
-
   gap: 1rem;
-  margin-top: 10%;
+  margin-top: 1.5rem;
 }
 
 .letterBox input{
@@ -93,7 +105,7 @@ h3{
 }
 
 .message {
-  font-size: 14px;
+  font-size: 20px;
   margin-top: 5px;
 }
 
@@ -109,3 +121,4 @@ h3{
 .right {
   color: blue;
 }
+

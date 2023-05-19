@@ -134,9 +134,6 @@ function checkLost(){
 // tem que aparecer no hanger
 
 
-
-
-
 //validar se o usuario usou somente letra
 //do I need to have form tag to validate the user input
 //also onChange?
