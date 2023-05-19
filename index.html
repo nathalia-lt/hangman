@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HangMan Game</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>HangMan Game</h1>
+      <img class="imgHeader" src="./images/hangman.avif" alt="hang man image">
+    </header>
+    <h3>Find the hidden word</h3>
+    <div id="man">
+      <img id="manImage" src="./images/0.jpg" alt="hanger image">
+      <span id="message"></span>
+      <div>
+        Guessed letters:
+        <span id="guessedLetters"></span>
+      </div>
+    </div>
+
+    <div id="word"> </div>
+
+    <form class="letterBox"> 
+      <label for="letterInput"> 
+        <input id="userInput" type="text" required maxLength="1" placeholder="Enter a letter here"/> 
+      </label>
+      <button id="enterBtn">Enter</button>
+    </form>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

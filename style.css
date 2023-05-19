@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* header style */
+
+.header{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-top: 3%;
+}
+
+h1{
+  font-size: 36px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+.imgHeader{
+  width: 50px;
+  height: auto;
+}
+
+/* hanger and man syle */
+
+#manImage{
+  padding-left: 5%;
+  max-width: 40%;
+  height: auto;
+  
+}
+
+
+
+/* word space */
+
+#word{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* essa classe eu criei no JS */
+.letter{
+  display: inline-block;
+  margin: 0 16px;
+  width: 40px;
+  height: 40px;
+  border-bottom: 4px solid black;
+}
+
+/* input letter style */
+
+.letterBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+  margin-top: 10%;
+}
+
+.letterBox input{
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #de5059;
+  border-radius: 10px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  width: 100%;
+}
+
+#enterBtn{
+  appearance:none;
+  padding:10px;
+  border:none;
+  background-color: #de5059;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:10%;
+  cursor: pointer;
+}
+
+#enterBtn:hover{
+  box-shadow:0 0 4px rgba(0,0,0,0.5);
+  background-color: #9c2e35;
+}
+
+.message {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.error {
+  color: red;
+}
+
+.wrong {
+  color: red;
+}
+
+
+.right {
+  color: blue;
+}
