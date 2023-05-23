@@ -1,4 +1,3 @@
-# Hangman-Game
 # <img src='./images/hangManHeader.png' width='400px' /> 
 ### Project Description
 A simple hangman game. 

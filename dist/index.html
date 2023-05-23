@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HangMan Game</title>
+    <script type="module" crossorigin src="/assets/index-07d6f66c.js"></script>
+    <link rel="stylesheet" href="/assets/index-dbd47e2a.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>HangMan Game</h1>
+      <img class="imgHeader" src="/assets/hangman-540b3c18.avif" alt="hang man image">
+    </header>
+    <h3>Find the hidden word</h3>
+    <div id="man">
+      <img id="manImage" src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAFeCAYAAADAEFB0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUKSURBVHgB7d1BbhNnGIDhSRX2HCFHoHtAzQ3gBC0naDlB6QlaTsAR4AZByIgtR8gRWLJASn+3QapQ/CZBsT3jPs/GlmYWlqVX/8znX+NpAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+NbRtEOr1eripuc+fPhwp58NrvLDBGwkEAgCgTDbexDulnu672MFgSAQCAKBIBAIAoEgEAgCgSAQCAKBIBAIx9NM3fXWiLOzs5Pj4+Ozo6Ojk6uOX1xcnH/58uXH09PTT9MMrVars/Hy0/r9+Kynjx49ejuxdf+LFeSGcZzONQ72Z7YryF0Zcdy/d+/e6/H25KrjI45Pl3GcT/CNg19BRhx/jpcHccpTcbDJQQfy/v3738fLL3HKc9fylIMNZB3HuHx6sen4OPbHGAT8NUE4yEDevXv35Jo4Xo6V48UE1zi4QNYTqzGtehWnfBxx/DbBDRzUFOs/49z7Vx2/HOc+neCGDmYFWY9zb/hbx/kEN3QwgYw4Xm2KY229coiD2zqIQNYTqxHHkzjl+Yjj4wS3tPhAjHPZpkUH8uHDh5+Nc9mmxQYybsofjPuKWhneHtI4d8R+8vX9uN86n9iJRY55L8e5r41z2bbFrSC2rrNLi1tBbF1nlxa1gqxWq9y6PgJ5Jg7u0mICudy6vvGmez3Offz48ZsJ7tAiAhlx/Hrdbx3GuWzD7ANZj3NHABvHuePYG3GwLbMO5Os4d9Pxy4nVswm2ZLaBGOcyB7Md8xrnMgdzvsTyJBL2bol7sTyJhJ1ZVCC2rrNriwnE1nX2YSmBeBIJezH7zYq2rv9rjLtfju/in+39nz9/NtrekTv9i4HrrFari9uc70kk7NusL7E8iYR9m3MgnkTC3s02EONc5sB/FEIQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgUAQCASBQBAIBIFAEAgEgQDwff4GmlQ1J6GSMrcAAAAASUVORK5CYII=" alt="hanger image">
+      <span id="message"></span>
+      <div class="guessedLettersContainer">
+        Guessed letters:
+        <span id="guessedLetters"></span>
+      </div>
+    </div>
+
+    <div id="word"> </div>
+
+    <form class="letterBox"> 
+      <label for="letterInput"> 
+        <input id="userInput" type="text" required maxLength="1" placeholder="Enter a letter here"/> 
+      </label>
+      <button id="enterBtn">Enter</button>
+    </form>
+    
+  </body>
+</html>
